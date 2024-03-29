@@ -1,3 +1,14 @@
-h-100 {
+body{
+  font-family: poppins;
+}
+
+.display-5 {
   text-align: center;
 }
+
+.newsletter-text {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
