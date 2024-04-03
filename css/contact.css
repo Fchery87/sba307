@@ -1,0 +1,21 @@
+* {
+  font-family: poppins;
+}
+
+.display-5 {
+  text-align: center;
+}
+
+.newsletter-text {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-form1{
+  text-align: center;
+}
