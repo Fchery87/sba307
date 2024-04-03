@@ -16,3 +16,15 @@
   margin: 0 auto;
 }
 
+.newsletter-animation {
+  background-color: #39E991;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes example {
+  from {background-color: #39E991;}
+  to {background-color: yellow;}
+}
