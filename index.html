@@ -10,6 +10,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/blogs/blog-1/assets/css/blog-1.css">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -27,11 +30,11 @@
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
 
-                        <img src="./images/sweatback-color-nobng.svg" alt="" width="150" height="100"></img>
+                        <a href="index.html"><img src="./images/sweatback-color-nobng.svg" alt="" width="150" height="100"></img></a>
 
                         <ul
                             class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-space-around align-items-center mb-md-0">
-                            <li><a href="/module1/sba307/index.html" class="nav-link px-2 text-white" !important>Home</a></li>
+                            <li><a href="index.html" class="nav-link px-2 text-white" !important>Home</a></li>
                             <li><a href="./pages/pricing.html" class="nav-link px-2 text-secondary">Pricing</a></li>
                             <li><a href="./pages/contact.html" class="nav-link px-2 text-secondary">Contact Us</a></li>
                         </ul>
@@ -42,7 +45,7 @@
 
                         <div class="text-end">
                                                         
-                            <button type="button" class="btn btn-warning">Sign-up</button>
+                            <a href="./pages/contact.html"><button type="button" class="btn btn-warning">Sign-up</button></div></a>
                         </div>
                 </div>
             </div>
@@ -92,19 +95,31 @@
                     access exclusive fitness tips, nutrition advice, exciting event updates, and special promotions!
                 </p>
             </div>
-            <div
-                class="d-flex subscription-content justify-content-between align-items-center flex-column flex-md-row text-center text-md-left">
-                <h3 class="flex-fill">Subscribe <br> to our newsletter</h3>
-                <form action="#" class="row flex-fill">
-                    <div class="col-md-7 ">
-                        <input type="email" class="form-control px-4 border-0 w-100 text-center text-md-left" id="email"
-                            placeholder="Your Email" name="email">
-                    </div>
-                    <div class="col-md-5 ">
-                        <button type="submit" class="btn btn-primary btn-lg border-0 w-100">Subscribe Now</button>
-                    </div>
-                </form>
+
+            <!-- Newsletter 1 - Bootstrap Brain Component -->
+<section class="py-3 py-md-5 py-xl-10 bg-light">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-9 col-lg-8 col-xl-7 col-xxl-6">
+          <h2 class="display-4 mb-4 mb-md-5 mb-xxl-6 text-center">Sign up for our newsletter and never miss a thing.</h2>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7">
+          <form class="row gy-3 gy-lg-0 gx-lg-2 justify-content-center">
+            <div class="col-12 col-lg-8">
+              <label for="email-newsletter-component" class="visually-hidden">Email Address</label>
+              <input type="email" class="form-control bsb-form-control-3xl" id="email-newsletter-component" value="" placeholder="Email Address" aria-label="email-newsletter-component" aria-describedby="email-newsletter-help" required>
+              <div id="email-newsletter-help" class="form-text text-center text-lg-start">We'll never share your email with anyone else.</div>
             </div>
+            <div class="col-12 col-lg-3 text-center text-lg-start">
+              <button type="submit" class="btn btn-primary bsb-btn-3xl">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
         </div>
 
     </div>
@@ -113,7 +128,7 @@
 
     <!-- MARKETING COLUMNS -->
 
-    <div class="container marketing">
+    <!-- <div class="container marketing">
 
         <div class="row featurette">
             <div class="col-md-7">
@@ -156,7 +171,58 @@
                 <img src="./images/chain-bike.jpg" alt="" width="500" height="500"></img>
             </div>
         </div>
+    </div> -->
+
+
+    <!-- About 2 - Bootstrap Brain Component -->
+<section class="py-3 py-md-5 py-xl-8">
+  <div class="container-fluid">
+    <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+      <div class="col-12 col-lg-6">
+        <img class="img-fluid rounded" loading="lazy" src="./images/women-lifting-barbell.jpg" alt="">
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="row justify-content-xl-center">
+          <div class="col-12 col-xl-10">
+            <h2 class="h1 mb-3">Why Choose Us?</h2>
+            <p class="lead fs-4 mb-3 mb-xl-5">With years of experience and deep industry knowledge, we have a proven track record of success and are constantly pushing ourselves to stay ahead of the curve.</p>
+            <div class="d-flex align-items-center mb-3">
+              <div class="me-3 text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                </svg>
+              </div>
+              <div>
+                <p class="fs-5 m-0">Our evolution procedure is super intelligent.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <div class="me-3 text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                </svg>
+              </div>
+              <div>
+                <p class="fs-5 m-0">We deliver services beyond expectations.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mb-4 mb-xl-5">
+              <div class="me-3 text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                </svg>
+              </div>
+              <div>
+                <p class="fs-5 m-0">Let's hire us to reach your objectives.</p>
+              </div>
+            </div>
+            <a href="./pages/contact.html"><button type="button" class="btn bsb-btn-2xl btn-outline-primary rounded-pill">Connect Now</button></a>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
 
 
     <!-- JOIN NOW SIGNUP  -->
